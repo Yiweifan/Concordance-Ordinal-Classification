@@ -72,4 +72,10 @@ Concordance-Ordinal-Classification (COC) implements the method from the paper "S
  
 The Balance Scale Data is available from the UCI repository. It was generated from psychological experiments, where each sample was classified as having a balance scale tip to the right, tip to the left, or being balanced. The attributes included the left weight, the left distance, the right weight, and the right distance.
 
+```
+source("Example.R")
+# output: misclassification error rate, mean absolute error, Kendall's coefficient, and mean ranked probability score.
+# 0.08633094 0.10791367 0.10536185 0.08781902
+```
+
 
